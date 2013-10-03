@@ -8,26 +8,35 @@ Getting started
 ---------------
 
 Clone this repo and install the dependencies:
-
-$ npm install && bower install
-
+```
+  $ npm install && bower install
+```
 
 Develop
 ------
-$ grunt server
+```
+  $ grunt server
+```
 
 Build
 ------
-$ grunt
+```
+  $ grunt
+```
 
 Test (with karma)
 ------
 
-h3. Unit tests
-h4. single run
-$ grunt test:unit
-h4. watch mode
-$ grunt test:unit --watch
-
-h3. e2e tests (single run)
-$ grunt test:e2e
+#### Unit tests
+##### single run
+```
+  $ grunt test:unit
+```
+##### watch mode
+```
+  $ grunt test:unit --watch
+```
+#### e2e tests (single run)
+```
+  $ grunt test:e2e
+```
