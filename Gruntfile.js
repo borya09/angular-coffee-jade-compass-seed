@@ -425,7 +425,7 @@ module.exports = function (grunt) {
 
 
 
-	grunt.registerTask('test:unit', function (target) {
+	grunt.registerTask('test:unit', function () {
 
 		if (grunt.option('watch')) {  //unit test watch mode
 			return grunt.task.run([
