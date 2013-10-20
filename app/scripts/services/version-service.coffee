@@ -1,14 +1,14 @@
 'use strict'
 
-class CvService
+class VersionService
   constructor: ->
     Version = {
-      number:'2.0',
+      number:'1.0',
       author:'Borja'
     }
 
-    CvService::get = ->
+    VersionService::get = ->
       Version
 
 
-angular.module('exampleApp').service 'cvService', CvService
+angular.module('exampleApp').service 'versionService', VersionService

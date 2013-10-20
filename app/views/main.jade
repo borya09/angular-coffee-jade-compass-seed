@@ -1,7 +1,9 @@
 .hero-unit
-  h1 'Allo, 'Allo!
+  h1 Aupa!
   p You now have
   ul
-    li(ng-repeat='thing in awesomeThings') {{thing}}
+    li(ng-repeat='thing in technologies') {{thing}}
   p installed.
+  p version {{version.number}}
+  p author {{version.author}}
   h3 Enjoy coding! - Yeoman
