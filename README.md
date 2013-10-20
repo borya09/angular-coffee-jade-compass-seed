@@ -1,7 +1,7 @@
 angular-coffee-jade-compass-seed
 ================================
 
-A Yeoman Angular-generated seed with CoffeeScript, Jade and Compass pre-set-up
+An AngularJS seed, set-up with CoffeeScript, Jade and Compass, and karma as test runner
 
 
 Getting started
