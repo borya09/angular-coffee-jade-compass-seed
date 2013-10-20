@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('whoruApp', ['ngRoute'])
+angular.module('exampleApp', ['ngRoute'])
   .config ['$routeProvider', ($routeProvider) ->
     $routeProvider
       .when '/',

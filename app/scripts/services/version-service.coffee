@@ -1,13 +1,14 @@
 'use strict'
 
 class CvService
-  constructor: ($log) ->
-    Cv = {
-      a:true
+  constructor: ->
+    Version = {
+      number:'2.0',
+      author:'Borja'
     }
 
     CvService::get = ->
-      Cv
+      Version
 
 
-angular.module('whoruApp').service 'cvService', ['$log', CvService]
+angular.module('exampleApp').service 'cvService', CvService

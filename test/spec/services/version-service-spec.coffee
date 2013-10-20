@@ -2,7 +2,7 @@
 
 describe 'Service: cvService', ->
 
-  beforeEach module 'whoruApp'
+  beforeEach module 'exampleApp'
 
   beforeEach inject((_cvService_) ->
     @cvService = _cvService_
@@ -10,5 +10,7 @@ describe 'Service: cvService', ->
 
   describe "version", ->
 
-    it "should return current version", ->
-      expect(@cvService.get.a).toBeTruthy
+    it "should return current number and author", ->
+      version = @cvService.get()
+      expect(version.number).toBe '2.0'
+      expect(version.author).toBe 'Borja'

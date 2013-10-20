@@ -2,13 +2,11 @@
 
 describe 'Controller: MainCtrl', () ->
 
-  # load the controller's module
-  beforeEach module 'whoruApp'
+  beforeEach module 'exampleApp'
 
   MainCtrl = {}
   scope = {}
 
-  # Initialize the controller and a mock scope
   beforeEach inject ($controller, $rootScope) ->
     scope = $rootScope.$new()
     MainCtrl = $controller 'MainCtrl', {
