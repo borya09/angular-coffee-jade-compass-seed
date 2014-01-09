@@ -40,3 +40,7 @@ Test (with karma)
 ```
   $ grunt test:e2e
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/borya09/angular-coffee-jade-compass-seed/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
